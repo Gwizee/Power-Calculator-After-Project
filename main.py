@@ -1,10 +1,5 @@
 num = int(input("ENter a number: "))
+power = int(input("Enter a  power: "))
 
-if num < 0:
-   print("Enter a positive number")
-else:
-   sum = 0
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
+n = num ** power
+print("Result is: ",n)
